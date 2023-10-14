@@ -1,0 +1,5 @@
+libcamera (1.0-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Ramin Dehghan <ramin@wolog.org>  Sat, 14 Oct 2023 05:42:17 +0000

@@ -1,0 +1,11 @@
+Source: libcamera
+Maintainer: Ramin Dehghan <ramin@wolog.org>
+Section: misc
+Priority: optional
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+
+Package: libcamera
+Architecture: arm64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: libcamera compiled with python bindings
