@@ -70,7 +70,7 @@ summary({ 'Sources': libcamera_git_version, }, section : 'Versions')
 meson.add_dist_script('utils/run-dist.sh')
 
 # This script puts the python bindings in a proper path.
-meson.add_install_script('utils/py-correct.sh')
+#   meson.add_install_script('utils/py-correct.sh')
 
 # Configure the build environment.
 cc = meson.get_compiler('c')
