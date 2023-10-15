@@ -1,0 +1,14 @@
+From: Michael Bottini <mbottini1@gmail.com>
+Description: Change python bindings install directory
+diff -Nru python-libcamera-0.0.orig/src/py/libcamera/meson.build python-libcamera-0.0/src/py/libcamera/meson.build
+--- python-libcamera-0.0.orig/src/py/libcamera/meson.build      2023-10-14 00:20:31.001076117 -0700
++++ python-libcamera-0.0/src/py/libcamera/meson.build   2023-10-14 00:21:06.233310956 -0700
+@@ -78,7 +78,7 @@
+     '-DPYBIND11_USE_SMART_HOLDER_AS_DEFAULT',
+ ]
+
+-destdir = get_option('libdir') / ('python' + py3_dep.version()) / 'site-packages' / 'libcamera'
++destdir = get_option('libdir') / ('python' + py3_dep.version()) / 'dist-packages' / 'libcamera'
+
+ pycamera = shared_module('_libcamera',
+                          pycamera_sources,
