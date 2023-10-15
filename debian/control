@@ -3,7 +3,7 @@ Maintainer: Ramin Dehghan <ramin@wolog.org>
 Section: misc
 Priority: optional
 Standards-Version: 4.6.2
-Build-Depends: debhelper-compat (= 13)
+Build-Depends: debhelper-compat (= 13), build-essentials, meson (>= 0.57), ninja-build, pkg-config, libyaml-dev, python3-yaml, python3-ply, python3-jinja2, libgnutls28-dev, libssl-dev, openssl, libdw-dev, libunwind-dev, libudev-dev, python3-sphinx, graphviz, texlive-latex-extra, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libevent-dev, libdrm-dev, libjpeg-dev, libsdl2-dev, qtbase5-dev, libqt5core5a, libqt5gui5, libqt5widgets5, qttools5-dev-tools, libtiff-dev, liblttng-ust-dev, lttng-tools, libexif-dev, libjpeg-dev, libevent-dev, abi-compliance-checker
 
 Package: libcamera
 Architecture: arm64
