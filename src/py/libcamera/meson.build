@@ -78,7 +78,8 @@ pycamera_args = [
     '-DPYBIND11_USE_SMART_HOLDER_AS_DEFAULT',
 ]
 
-destdir = get_option('libdir') / ('python' + py3_dep.version()) / 'dist-packages' / 'libcamera'
+#   destdir = get_option('libdir') / ('python' + py3_dep.version()) / 'dist-packages' / 'libcamera'
+destdir = get_option('libdir') / ('python3') / 'dist-packages' / 'libcamera'
 
 pycamera = shared_module('_libcamera',
                          pycamera_sources,
